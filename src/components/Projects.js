@@ -7,7 +7,6 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
-
   const projects = [
     {
       title: "Medico",
@@ -32,26 +31,18 @@ export const Projects = () => {
         <Row>
           <Col size={12}>
             <TrackVisibility>
-                <div>
-                  <h2>Projects</h2>
-                  <p>
-                    Here are some of the projects I’ve built—from real-time auction systems to healthcare platforms—
-                    each focused on solving real problems with responsive design, robust functionality, and modern web technologies.
-                  </p>
-                  <Row>
-                    {projects.map((project, index) => (
-                      <ProjectCard
-                        key={index}
-                        {...project}
-                      />
-                    ))}
-                  </Row>
-                </div>
-<<<<<<< HEAD
-              
-=======
-          
->>>>>>> a8d5594b36610d2e8edfde4c8d3e1a8eab2e1845
+              <div>
+                <h2>Projects</h2>
+                <p>
+                  Here are some of the projects I’ve built—from real-time auction systems to healthcare platforms—
+                  each focused on solving real problems with responsive design, robust functionality, and modern web technologies.
+                </p>
+                <Row>
+                  {projects.map((project, index) => (
+                    <ProjectCard key={index} {...project} />
+                  ))}
+                </Row>
+              </div>
             </TrackVisibility>
           </Col>
         </Row>
@@ -59,9 +50,4 @@ export const Projects = () => {
       <img className="background-image-right" src={colorSharp2} alt="background" />
     </section>
   );
-<<<<<<< HEAD
 };
-=======
-};
-
->>>>>>> a8d5594b36610d2e8edfde4c8d3e1a8eab2e1845
