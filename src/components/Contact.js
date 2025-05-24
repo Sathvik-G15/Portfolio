@@ -19,7 +19,7 @@ export const Contact = () => {
                 <h2>Get In Touch</h2>
                 <div className="contact-links">
                   <a
-                    href="mailto:your.email@example.com"
+                    href="mailto:ssthvikguntupalli2005@gmail.com"
                     className="contact-box"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -27,7 +27,7 @@ export const Contact = () => {
                     <FaEnvelope className="icon" /> Email
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/your-linkedin-id"
+                    href="https://www.linkedin.com/in/Sathvik-Guntupalli"
                     className="contact-box"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -35,7 +35,7 @@ export const Contact = () => {
                     <FaLinkedin className="icon" /> LinkedIn
                   </a>
                   <a
-                    href="https://github.com/your-github-username"
+                    href="https://github.com/Sathvik-G15"
                     className="contact-box"
                     target="_blank"
                     rel="noopener noreferrer"
